@@ -1,0 +1,55 @@
+header{
+    background-color: #1f355ada;
+    color: #fff;
+    .navbar{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 60px;
+        .navbar__logo{
+            transition: .5s;
+            cursor: pointer;
+            &:hover{
+                color: pink;
+            }
+        }
+        .navbar__icons{
+            display: flex;
+            gap: 30px;
+            align-items: center;
+            svg{
+                font-size: 20px;
+                transition: .5s;
+                cursor: pointer;
+                &:hover{
+                    color: pink;
+                    transform: translateY(-5px);
+                }
+            }
+            .navbar__inputs{
+                display: flex;
+                align-items: center;
+                background-color: #013b8c96;
+                width: 250px;
+                height: 45px;
+                border-radius: 7px;
+                padding: 0 10px;
+                input{
+                    width: 100%;
+                    color: #fff;
+                    background-color: #013b8c00;
+                    padding: 0 10px;
+                    border: none;
+                    outline: none;
+                    font-size: 18px;
+                    &::placeholder{
+                        color: #fff;
+                    }
+                }
+                svg{
+                    color: #C9CDDF;
+                }
+            }
+        }
+    }
+}
